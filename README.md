@@ -14,6 +14,7 @@ More information about interfacing FSR (Force Sensing Resistor) with Arduino can
 - RECharts
 - HTML
 - CSS
+- Toastify
 
 ## Team Members
 |  Name |
