@@ -1,13 +1,18 @@
 # Ulcer Paralysis Monitoring 
-The Ulcer Paralysis Monitoring project utilizes sensors like FSR9, touch sensor, accelerometer, and pulse sensor to assist the patient in various ways. The FSR9 sensor is used to detect if the patient falls off the bed to prevent injuries. The touch sensor allows the patient to communicate his needs by touching a button that sends signals to healthcare providers. The accelerometer detects motion or wrong positions that could harm the patient, while the pulse sensor monitors the patient's heartbeats to aid healthcare providers in emergencies.
+This project details the development of a sensor-based system designed to monitor patients with pressure ulcers and paralysis, enhancing their safety and communication with healthcare providers.
 
-The materials required for the prototype of the Ulcer Paralysis Monitoring project include Arduino Uno, TTP226 Capacitive Touch Sensor, Accelerometer Sensors, Jumper wires, and a Breadboard.
+## Key Features:
+-Fall Detection:Utilizes FSR9 sensors to identify falls from the bed, potentially preventing pressure ulcer worsening and injuries.
+-Improved Patient Communication: Incorporates a TTP226 capacitive touch sensor that allows patients to send requests to healthcare providers with a simple touch, promoting patient well-being and reducing call burden.
+-Movement Monitoring: Employs accelerometer sensors to detect potentially harmful movements or improper positioning, enabling timely intervention by healthcare staff.
+-Real-time Vital Sign Monitoring: Implements a pulse sensor to track patient's heart rate, providing crucial data for healthcare providers in emergency situations.
 
-We used ReactJS to create a website that has a demo for a nurse dashboard that provides the nurse with real-time data of the patient. The data are in the form of graphs or values that are represented in the boxes above, in addition; if certain parameters exceed the required threshold either a warning or a danger message appears on the dashboard to notify the nurse of any irregularities. The patient also can send message with certain requests to the nurse via the capacitive touch sensor to ask them to cater for their needs.
+## Prototype Development:
+The project utilizes an Arduino Uno microcontroller as the central processing unit, along with TTP226 capacitive touch sensors, accelerometer sensors, jumper wires, and a breadboard to create a functional prototype.
 
-More information about interfacing FSR (Force Sensing Resistor) with Arduino can be found in the following references provided in the document:
-- https://www.instructables.com/Force-Sensing-Resistor-FSR-Arduino-Simple-Tutorial/
-- https://robosans.com/learn/embedded/arduino/interfacing-fsr-force-sensing-$PAGE_8
+## Data Visualization and Alert System:
+
+A web application built with ReactJS serves as a nurse dashboard, displaying real-time patient data in clear graphs and numerical formats. The dashboard incorporates a threshold-based alert system that triggers warnings or danger messages when monitored parameters deviate from safe ranges, notifying nurses of potential patient concerns.
 
 ## Technologies Used in website
 - ReactJS
